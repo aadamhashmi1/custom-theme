@@ -14,7 +14,7 @@ function custom_theme_assets() {
         'main-style',
         get_template_directory_uri() . '/main.css',
         [],
-        filemtime(get_template_directory() . '/main.css') // Cache busting
+        filemtime(get_template_directory() . '/main.css')
     );
 
     // Optional JS
